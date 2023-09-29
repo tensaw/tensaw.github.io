@@ -1,1 +1,20 @@
-<h1>index</h1>
+<style>
+body {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} #a {
+    animation-name: a;
+    animation-duration: 32s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+} @keyframes a {
+    0% {
+        transform: rotate(0deg);
+    } 100% {
+        transform: rotate(360deg);
+    }
+}
+</style>
+<img id=a src=face.jpg>
